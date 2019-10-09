@@ -1,0 +1,23 @@
+tables
+        user-{id,username,password,role}
+        phonebook-{id,user-id,phone number,name}
+pages
+                registration form if registered print successful registrarion on same page
+                login form if logged in successfully go to home.jsp
+        home.jsp
+            Add option when clicked go to add.jsp
+            list of data - edit delete
+                when clicked edit go to add.jsp
+                when clicked delete delete the current data and stay in same page
+        ShowAllData.jsp
+            display all information when clicked on any of the data(name  or phone or other)
+src
+         model
+            User
+            Phonebook
+         servlet
+            UserServlet
+            PhoneBookServlet
+         service
+            UserService-register,login methods
+            PhoneBookService
